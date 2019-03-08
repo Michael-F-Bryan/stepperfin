@@ -6,3 +6,4 @@ edition = "2018"
 description = "Core functionality and abstractions for StepperFin 3D printer firmware."
 
 [dependencies]
+uom = { version = "0.21.1", default-features = false, features = ["si", "f32"] }
