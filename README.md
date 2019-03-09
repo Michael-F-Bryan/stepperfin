@@ -11,8 +11,7 @@ I dunno. I found it with one of those random project name sites.
 
 ## License
 
-This project is in no way affiliated with *Wintech Engineering* and done 
-completely in my own time. As such it is licensed under either of
+This project is licensed under either of
 
 * Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or
   http://www.apache.org/licenses/LICENSE-2.0)
