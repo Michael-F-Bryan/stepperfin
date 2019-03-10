@@ -54,3 +54,6 @@ rustflags = [
   # "-C", "link-arg=-Wl,-Tlink.x",
   # "-C", "link-arg=-nostartfiles",
 ]
+
+[build]
+target = "thumbv7em-none-eabihf"

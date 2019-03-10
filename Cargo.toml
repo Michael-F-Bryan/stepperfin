@@ -1,2 +1,8 @@
 [workspace]
-members = ["stepperfin-core"]
+members = ["stepperfin-core", "stepperfin-stm32f3-discovery"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"

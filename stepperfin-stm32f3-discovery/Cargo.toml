@@ -11,27 +11,27 @@
 # will likely look very different (and much more reasonable)
 
 [package]
-name = "cortex-m-quickstart"
-version = "0.3.4"
-authors = ["Jorge Aparicio <jorge@japaric.io>"]
-description = "A template for building applications for ARM Cortex-M microcontrollers"
-documentation = "https://rust-embedded.github.io/cortex-m-quickstart/cortex_m_quickstart"
-keywords = ["arm", "cortex-m", "template"]
+name = "stepperfin-stm32f3-discovery"
+version = "0.1.0"
+edition = "2018"
+authors = ["Michael-F-Bryan <michaelfbryan@gmail.com>"]
+description = "Implementation of the stepperfin firmware for an STM32 F3 discovery board"
+keywords = ["3d-printer", "cortex-m", "stm32"]
 categories = ["embedded", "no-std"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/japaric/cortex-m-quickstart"
-[profile.release]
-lto = true
-codegen-units = 1
-debug = true
+
+[dependencies]
+f3 = { version = "0.6.1", features = ["rt"] }
+
 [dependencies.cortex-m]
-version = "0.5.6"
+version = "0.5.8"
 
 [dependencies.cortex-m-rt]
-version = "0.5.3"
+version = "0.6.7"
 
 [dependencies.cortex-m-semihosting]
 version = "0.3.1"
 
 [dependencies.panic-semihosting]
-version = "0.3.0"
+version = "0.5.1"
