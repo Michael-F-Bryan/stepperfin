@@ -22,16 +22,8 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/japaric/cortex-m-quickstart"
 
 [dependencies]
+cortex-m-rt = "0.6.7"
+cortex-m = "0.5.8"
 f3 = { version = "0.6.1", features = ["rt"] }
-
-[dependencies.cortex-m]
-version = "0.5.8"
-
-[dependencies.cortex-m-rt]
-version = "0.6.7"
-
-[dependencies.cortex-m-semihosting]
-version = "0.3.1"
-
-[dependencies.panic-semihosting]
-version = "0.5.1"
+panic-halt = "0.2.0"
+stm32f30x-hal = { version = "0.2.0", features = ["rt"] }
